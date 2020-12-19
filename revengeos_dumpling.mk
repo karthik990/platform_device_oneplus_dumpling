@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Official-ify
+REVENGEOS_BUILDTYPE := OFFICIAL
+
 # Inherit some common RevengeOS stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
 
