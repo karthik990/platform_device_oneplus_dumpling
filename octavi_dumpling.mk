@@ -24,10 +24,14 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit from Potato vendor
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
-PRODUCT_NAME := potato_dumpling
+# Inherit some common Octavi-OS stuff
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+
+OCTAVI_DEVICE_MAINTAINER := KARTHIK N
+
+PRODUCT_NAME := octavi_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

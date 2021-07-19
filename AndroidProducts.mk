@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_dumpling.mk
+    $(LOCAL_DIR)/octavi_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_dumpling-user \
-    potato_dumpling-userdebug \
-    potato_dumpling-eng
+    octavi_dumpling-user \
+    octavi_dumpling-userdebug \
+    octavi_dumpling-eng
